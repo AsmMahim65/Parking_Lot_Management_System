@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.io.File;
 import java.util.Scanner;
 public class BracuCarParkingLotTest {
-
+	
 	@Before
 	public void setUp() throws Exception {
 		//BCPL = new BracuCarParkingLot;
@@ -26,7 +26,7 @@ public class BracuCarParkingLotTest {
 		}
 		
 	}
-
+	@Test
 	public void testdeleteVehicle() {
 		try {
 			Scanner sc= new Scanner(new File("C:\\Users\\User\\Desktop\\Semester 10\\Cse470\\project ideas\\Git\\Parking_Lot_Management_System\\MVC\\2021-4-29.txt"));
@@ -39,7 +39,7 @@ public class BracuCarParkingLotTest {
 		}
 		
 	}
-	
+	@Test
 	public void testprintVehicleList() {
 		try {
 			Scanner sc= new Scanner(new File("C:\\Users\\User\\Desktop\\Semester 10\\Cse470\\project ideas\\Git\\Parking_Lot_Management_System\\MVC\\2021-4-30.txt"));
